@@ -2,8 +2,13 @@ html {
     background-color: black;
     text-align: center;
     display: flex;
+    
+}
+
+body {
     width: 100%;
-    margin: 0 auto;
+    margin: 1px 12px;
+    padding: 1px;
 }
 
 header {
@@ -12,11 +17,13 @@ header {
     font-size: 50px;
     color: white;
     text-align: center;
+    clear: both;
 }
 a {
     color: aquamarine;
     font-size: 16px;
     overflow: hidden;
+    float: bottom;
 }
 
 h2 {
@@ -41,4 +48,5 @@ h2 {
  footer {
      text-align: right;
      color: gray;
+     font-size: 1.2em;
  }
